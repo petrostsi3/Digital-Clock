@@ -1,0 +1,23 @@
+body{
+    background-image: url(assets/nature_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.clock-container{
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+}
+.clock{
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+}
